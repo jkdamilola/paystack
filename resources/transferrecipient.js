@@ -5,7 +5,7 @@ var root = '/transferrecipient';
 module.exports = {
 
   /*
-  Initiate transfer
+  Initiate transfer recipient
   @param: type, name, metadata, account_number, bank_code, currency, description
   */
   create: {
@@ -15,7 +15,7 @@ module.exports = {
   },
 
   /*
-  List transfers
+  List transfer recipients
   */
   list: {
     method: 'get',
